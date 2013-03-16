@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TaxiMoblieMultiMediaSystem</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- main page string -->
+    <string name="main_temp_tips">滚动信息条</string>
+    
+    <!-- certificate info pane string -->
+    <string name="cert_temp_tips">资格证信息界面</string>
+    <string name="choose_button">用户选择</string>
+    
+    <!-- multi-media pane string -->
+    <string name="media_temp_tips">多媒体信息界面</string>
+
+</resources>
