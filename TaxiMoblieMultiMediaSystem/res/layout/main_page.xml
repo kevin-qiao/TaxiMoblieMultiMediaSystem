@@ -15,8 +15,14 @@
         android:layout_weight="1"
         android:baselineAligned="false">
         
+        <!-- 
         <fragment android:id="@+id/driver_certificate"
             android:name="com.ztebros.taximobilemultimediasystem.DriverCertFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        -->
+        <FrameLayout android:id="@+id/driver_container"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"/>
