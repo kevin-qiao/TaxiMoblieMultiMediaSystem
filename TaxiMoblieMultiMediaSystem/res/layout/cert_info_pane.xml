@@ -25,10 +25,31 @@
         
     </LinearLayout>
     
-    <Button android:id="@+id/temp_button"
-        android:layout_width="wrap_content"
+    <LinearLayout android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="@string/cert_temp_tips"/>
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        style="?android:attr/buttonBarStyle">
+        <Button android:id="@+id/good"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/good_button"
+            style="?android:attr/buttonBarButtonStyle"/>
+        
+        <Button android:id="@+id/satisfactory"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/satisfactory_button"
+            style="?android:attr/buttonBarButtonStyle"/>
+        <Button android:id="@+id/unsatisfactory"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:text="@string/unsatisfactory_button"
+            style="?android:attr/buttonBarButtonStyle"/>        
+    </LinearLayout>
 
 </LinearLayout>

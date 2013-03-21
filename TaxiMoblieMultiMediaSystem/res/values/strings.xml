@@ -11,6 +11,10 @@
     <!-- certificate info pane string -->
     <string name="cert_temp_tips">资格证信息界面</string>
     <string name="choose_button">用户选择</string>
+    <string name="good_button">满意</string>
+    <string name="satisfactory_button">一般</string>
+    <string name="unsatisfactory_button">不满意</string>
+    <string name="feedback_toast">感谢您的点评，祝您旅途愉快</string>
     
     <!-- multi-media pane string -->
     <string name="media_temp_tips">多媒体信息界面</string>

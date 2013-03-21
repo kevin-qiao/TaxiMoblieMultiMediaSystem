@@ -25,6 +25,13 @@ public class TaxiMobileMMActivity extends FragmentActivity implements
 	}
 
 	@Override
+	protected void onStart() {
+		// TODO Auto-generated method stub
+		super.onStart();
+		
+	}
+
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.taxi_moblie_mm, menu);
