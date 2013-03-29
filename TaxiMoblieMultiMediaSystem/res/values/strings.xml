@@ -7,6 +7,7 @@
     
     <!-- main page string -->
     <string name="main_temp_tips">滚动信息条</string>
+    <string name="scroll_tips">王炜是个好同志，孙瑞锋也是个好同志</string>
     
     <!-- certificate info pane string -->
     <string name="cert_temp_tips">资格证信息界面</string>
@@ -16,7 +17,13 @@
     <string name="unsatisfactory_button">不满意</string>
     <string name="feedback_toast">感谢您的点评，祝您旅途愉快</string>
     
+    <!-- driver choose fragment -->
+    <string name="photo_desc">driver\'s photo</string>
+    
     <!-- multi-media pane string -->
     <string name="media_temp_tips">多媒体信息界面</string>
+    
+    <!-- driver head view -->
+    <string name="header_cancel_btn">返回</string>
 
 </resources>

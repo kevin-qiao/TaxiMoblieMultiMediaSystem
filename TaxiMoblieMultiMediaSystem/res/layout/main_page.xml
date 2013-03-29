@@ -34,7 +34,7 @@
             android:background="#666666"/>
         
         <fragment android:id="@+id/multi_media_pane"
-            android:name="com.ztebros.taximobilemultimediasystem.MultiMediaPaneFragment"
+            android:name="com.ztebros.tmms.MultiMediaPaneFragment"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2"/>
@@ -47,10 +47,11 @@
         android:paddingBottom="2dp"
         android:background="#666666"/>
     
-    <TextView android:id="@+id/scroll_msg"
+    <com.ztebros.tmms.AutoScrollAdsView 
+        android:id="@+id/scroll_ads"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textIsSelectable="true"
-        android:text="@string/main_temp_tips"/>
+        android:textSize="25sp"
+        android:text="@string/scroll_tips"/>    
 
 </LinearLayout>
